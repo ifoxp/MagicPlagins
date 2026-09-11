@@ -1,0 +1,9 @@
+name: MagicPlugin
+version: "${version}"
+main: dev.magic.fire.MagicPlugin
+api-version: "1.21"
+description: Fire magic driven by gestures - no client mods required
+author: chekaliuk_di
+
+# Note: Paper plugins do not declare commands here. /magic is registered
+# through the lifecycle manager in MagicPlugin.onEnable().

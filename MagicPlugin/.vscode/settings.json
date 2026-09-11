@@ -1,0 +1,31 @@
+{
+  "// Java 25 is required by Paper 26.x; Gradle downloaded this JDK for us": "",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-25",
+      "path": "C:\\Users\\ifoxp\\.gradle\\jdks\\eclipse_adoptium-25-amd64-windows.2",
+      "default": true
+    }
+  ],
+
+  "// Let the extension drive the build from Gradle, so its classpath matches": "",
+  "java.import.gradle.enabled": true,
+  "java.import.gradle.wrapper.enabled": true,
+  "java.configuration.updateBuildConfiguration": "automatic",
+
+  "// Sources are UTF-8; without this the Cyrillic strings show as garbage": "",
+  "files.encoding": "utf8",
+  "[java]": {
+    "files.encoding": "utf8"
+  },
+
+  "// Generated and build output - not worth indexing or showing": "",
+  "files.exclude": {
+    "**/.gradle": true,
+    "**/bin": true,
+    "**/build": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true
+  }
+}

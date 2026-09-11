@@ -1,0 +1,11 @@
+# Gradle
+.gradle/
+build/
+
+# IDE project files - regenerate with `gradlew eclipse`
+.classpath
+.project
+.settings/
+bin/
+.idea/
+*.iml
